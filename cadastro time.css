@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black
+
+}
+
+.container_header{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 480px;
+    height: 40px;
+    
+}
+
+.textos_links{
+    width: 48vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textos_links a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.banner_cadastro_times{
+    background-image: url(img/fundo_banner_cadastro_time.png);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_cadastro_times p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.conteudo_principal_tela_cadastro_times{
+    background-color: #1e1c21;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div_cadastro_time{
+    background: #111111;
+    background: -moz-linear-gradient(top,  #111111 5%, #535353 30%, #6d6d6d 50%, #535353 70%, #111111 95%);
+    background: -webkit-linear-gradient(top,  #111111 5%,#535353 30%,#6d6d6d 50%,#535353 70%,#111111 95%);
+    background: linear-gradient(to bottom,  #111111 5%,#535353 30%,#6d6d6d 50%,#535353 70%,#111111 95%);
+    box-shadow: 1px 1px 20px 4px #000000;filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#111111',GradientType=0 );   
+    height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.div_cadastro_time p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.div_cadastro_time input{
+    background-color: #ababab;
+    border-style: none;
+    height: 30px;
+}
+
+.input_nome_equipe{
+    width: 850px;
+}
+
+.input_emblema{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 148px;
+}
+
+.div_botão_time{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_cadastro_time button{
+    width: 257px;
+    height: 40px;
+    background-color: #001f70;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.título_lista_times{
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
+.lista_times{
+    height: 150px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    margin-bottom: 50px;
+}
+
+tr{
+    width: 1128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+tr td{
+    padding-left: 20px;
+}
+
+.legenda_tabela{
+    width: 946px;
+    background-color: black;
+    border: 1px solid white
+}
+
+td{
+    width: 420px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.td_emblema{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_flamengo{
+    height: 45px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links_úteis{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:100px;
+    margin-bottom: 150px;
+}
+
+.links_úteis span{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-size: 15px;
+}
+
+.páginas{
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.páginas span{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.logo_footer{
+    height: 40px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.cadastro{
+    height: 70px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastro p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    font-size: 18.5px;
+}
+
+.caixa_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.email{
+    width: 11vw;
+    background-color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.email p{
+    color: #c4c4c4;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cadastrar {
+    width: 10vw;
+    background-color: #001f70;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastar p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.siga{
+    width: 21vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.siga p{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+}
+
+.siga img{
+    width: 3vw;
+}
+
